@@ -2,6 +2,6 @@ import fileinput
 
 total = 0
 for line in fileinput.input():
-	total += float(line)
+	total += int(line)
 
 print(total)
